@@ -1,0 +1,50 @@
+table, tr ,td{
+    border: 1px solid dimgray;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+td{
+    height: 25px;
+    width: 30px;
+}
+td:hover{
+    background-color: steelblue;
+    color: white;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+input{
+    font-family: Cambria;
+}
+header, footer{
+    background-color: #829EB9;
+    color: white;
+    text-align: center;
+    padding: 11px;
+}
+.content{
+    float: left;
+    background-color: #B3C6D9;
+    height: 380px;
+    width: 25%;
+    padding: 130px 0px 110px 0px;
+}
+.content:nth-child(2){
+    background-color: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+footer{
+    clear: both;
+}
